@@ -26,5 +26,8 @@ jobs:
         with:
           node-version: 'latest'
 
+      - name: Install deps
+        run: pnpm install
+
       - name: Validate renovate config
         run: pnpm test
