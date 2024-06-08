@@ -1,0 +1,19 @@
+{
+  "name": "@younggglcy/renovate-config",
+  "version": "0.0.0",
+  "description": "younggglcy's renovate config",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "keywords": [
+    "renovate-config"
+  ],
+  "author": "younggglcy <younggglcy@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "^37.399.4"
+  }
+}
