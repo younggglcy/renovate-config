@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "younggglcy's renovate config",
   "scripts": {
-    "test": "renovate-config-validator ./default.json"
+    "test": "renovate-config-validator ./default.json --strict"
   },
   "keywords": [
     "renovate-config"

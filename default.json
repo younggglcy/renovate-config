@@ -5,6 +5,6 @@
   "rangeStrategy": "bump",
   "timezone": "Asia/Shanghai",
   "schedule": [
-    "before 9pm every saturday"
+    "before 9pm on saturday"
   ]
 }
