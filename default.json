@@ -6,5 +6,11 @@
   "timezone": "Asia/Shanghai",
   "schedule": [
     "before 9pm on saturday"
+  ],
+  "packageRules": [
+    {
+      "depTypeList": ["peerDependencies"],
+      "enabled": false
+    }
   ]
 }
