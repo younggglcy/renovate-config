@@ -11,6 +11,11 @@
     {
       "matchDepTypes": ["peerDependencies"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["node"],
+      "enabled": false
     }
-  ]
+  ],
+  "minimumReleaseAge": "3 days"
 }
