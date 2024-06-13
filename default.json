@@ -13,7 +13,9 @@
       "enabled": false
     },
     {
+      "description": "Disable all node engine updates",
       "matchPackageNames": ["node"],
+      "matchDepTypes": ["engines"],
       "enabled": false
     }
   ],
