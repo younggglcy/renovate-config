@@ -5,7 +5,7 @@
   "rangeStrategy": "bump",
   "timezone": "Asia/Shanghai",
   "schedule": [
-    "before 9pm on saturday"
+    "on sunday"
   ],
   "packageRules": [
     {
