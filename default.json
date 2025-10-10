@@ -2,15 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    "schedule:weekends",
     "group:allNonMajor",
     ":automergeMinor"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "timezone": "Asia/Shanghai",
-  "schedule": [
-    "on sunday"
-  ],
   "packageRules": [
     {
       "matchDepTypes": ["peerDependencies"],
